@@ -1,0 +1,22 @@
+By j hack
+http://twitter.com/_jhack
+http://github.com/jhack
+
+Written for Mac OS X Snow Leopard.
+
+This is a shell script that makes a Mac recite the lyrics to 'Friday' by Rebecca Black every Friday @ 7 A.M.
+
+friday.lol.plist is set to run the friday.sh file every Friday @ 7 A.M. This can be edited, just run 'launchctl load /Library/LaunchAgents' command after every edit.
+
+TODO
+Make an installer package to simplify installation process.
+
+INSTALL INSTRUCTIONS
+Copy friday.sh to /sbin, copy friday.lol.plist to /Library/LaunchAgents, then reload LaunchAgents.
+
+Open a new Terminal window and type the following (drag and drop friday.sh & friday.lol.plist to the Terminal window) -
+
+sudo cp friday.sh /sbin/friday.sh
+sudo cp friday.lol.plist /Library/LaunchAgents/friday.lol.plist
+sudo launchctl load /Library/LaunchAgents
+sudo chmod +x /sbin/friday.sh
