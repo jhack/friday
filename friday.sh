@@ -14,6 +14,7 @@
 # http://twitter.com/_jhack
 # http://github.com/jhack
 
+
 osascript -e 'set volume output volume 100'
 say 7am, waking up in the morning
 osascript -e 'set volume output volume 100'
