@@ -8,10 +8,10 @@ This is a shell script that makes a Mac recite the lyrics to 'Friday' by Rebecca
 
 friday.lol.plist is set to run the friday.sh file every Friday @ 7 A.M. This can be edited, just run 'launchctl load /Library/LaunchAgents' command after every edit.
 
-TODO
+TODO:
 Make an installer package to simplify installation process.
 
-INSTALL INSTRUCTIONS
+INSTALL INSTRUCTIONS:
 Copy friday.sh to /sbin, copy friday.lol.plist to /Library/LaunchAgents, then reload LaunchAgents.
 
 Open a new Terminal window and type the following (drag and drop friday.sh & friday.lol.plist to the Terminal window) -
